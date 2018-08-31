@@ -1,0 +1,14 @@
+@import "../../vars.scss";
+
+#Login {
+  height: 100%;
+  #login-wrapper {
+    width: 254px;
+    height: 254px;
+    #logo-wrapper {
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+    }
+  }
+}

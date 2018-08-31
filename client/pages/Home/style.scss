@@ -1,5 +1,19 @@
 @import "../../vars.scss";
 
 #Home {
-  
+  height: 100%;
+  #partitions-wrapper {
+    height: 100%;
+    .partition {
+      padding: 20px;
+      height: 100%;
+    }
+    #display-partitions-wrapper {
+      position: relative;
+      width: 100%;
+      .partition {
+        width: 50%;
+      }
+    }
+  }
 }

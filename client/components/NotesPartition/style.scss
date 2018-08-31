@@ -1,0 +1,12 @@
+@import "../../vars.scss";
+
+#NotesPartition {
+
+  // for construction purposes only
+    width: 300px;
+  //
+
+  max-width: 300px;
+  background: $background-gray;
+  border-right: solid 1px $partition-border;
+}

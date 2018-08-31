@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import "./vars.scss";
 
+html, textarea {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html, body, #root, .App {
+  height: 100%;
+}
+
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
